@@ -1,0 +1,21 @@
+.navbar{
+    background: rgba(238, 232, 232, 0.719);
+    transition: all 1s;
+}
+ul{
+    list-style-type: none;
+}
+ul li a:hover{
+    transition: all 0.5s;
+ 
+}
+
+.active{
+    
+    color: rgb(253, 3, 3);
+}
+.active:hover,
+.active:active{
+
+    color: rgb(18, 245, 94);
+}
